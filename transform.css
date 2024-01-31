@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(242, 231, 241);
+}
+.first-container{
+  display:flex;
+  gap:15px;
+  margin:50px;
+  margin-bottom:15px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.second-container{
+  display:flex;
+  gap:15px;
+  margin:50px;
+  margin-top:0;
+  margin-bottom:15px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.third-container{
+  display:flex;
+  gap:15px;
+  margin:50px;
+  margin-top:0;
+  margin-bottom:0;
+  justify-content:center;
+  flex-wrap:wrap;
+} 
+.forth-container{
+  display:flex;
+  gap:15px;
+  margin:50px;
+  margin-top:15px;
+  margin-bottom:0;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.fifth-container{
+  display:flex;
+  gap:15px;
+  margin:50px;
+  margin-top:15px;
+  margin-bottom:15px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.sixth-container{
+  display:flex;
+  gap:15px;
+  margin:50px;
+  margin-top:0;
+  margin-bottom:15px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.seventh-container{
+  display:flex;
+  gap:15px;
+  margin:50px;
+  margin-top:0;
+  margin-bottom:0;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-bottom:100px;
+} 
+.box{
+  width:200px;
+  height:140px;
+  background-color: white;
+  position: relative;
+}
+.purple-box{
+  width:100px;
+  height:100px;
+  background-color: rgb(185, 144, 203);
+  position: absolute;
+  top:20px;
+  left:50px;
+  transition:all 0.5s;
+}
+.gray-box{
+  width:100px;
+  height:100px;
+  background-color: rgb(200, 199, 199);
+  margin-top:20px;
+  margin-left:50px;
+}
+.first-container .one:hover{
+  transform:rotate(45deg);
+  opacity:0.8;
+}
+.first-container .two:hover{
+  transform:rotatex(45deg);
+  opacity:0.8;
+}
+.first-container .three:hover{
+  transform:rotatey(45deg);
+  opacity:0.8;
+}
+.first-container .four:hover{
+  transform:scale(1.5);
+  opacity:0.8;
+}
+.first-container .five:hover{
+  transform:scalex(2);
+  opacity:0.8;
+}
+.second-container .one:hover{
+  transform:scaley(2);
+  opacity:0.8;
+}
+.second-container .two:hover{
+  transform:skewx(45deg);
+  opacity:0.8;
+}
+.second-container .three:hover{
+  transform:skewy(45deg);
+  opacity:0.8;
+}
+.second-container .four:hover{
+  transform: translate(50px,20px);
+  opacity:0.8;
+}
+.second-container .five:hover{
+  transform: translate(50px);
+  opacity:0.8;
+}
+.third-container .one:hover{
+  transform: translatey(50px);
+  opacity:0.8;
+}
+.third-container .two:hover{
+  transform:skewy(45deg)  scale(2) translate(22px,-25px);
+  z-index:1;
+  opacity:0.8;
+}
+.forth-container .box:nth-child(1):hover{
+  perspective: 100px;;
+}
+.forth-container .one:hover{
+  transform: rotatex(45deg) ;
+  opacity:0.8;
+}
+.forth-container .box:nth-child(2):hover{
+  perspective: 100px;
+}
+.forth-container .two:hover{
+  transform: rotatey(45deg) ;
+  opacity:0.8;
+}
+.fifth-container .one:hover{
+  transform-origin: top right;
+  transform: rotate(45deg);
+  opacity:0.8;
+}
+.fifth-container .two:hover{
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+  opacity:0.8;
+}
+.fifth-container .box:nth-child(3):hover{
+  perspective: 100px;
+}
+.fifth-container .three:hover{
+  transform-origin: bottom;
+  transform: rotatex(45deg);
+  opacity:0.8;
+}
+.fifth-container .box:nth-child(4):hover{
+  perspective: 150px;
+}
+.fifth-container .four:hover{
+  transform-origin: top;
+  transform: rotatex(45deg);
+  opacity:0.8;
+}
+.fifth-container .box:nth-child(5):hover{
+  perspective: 150px;
+}
+.fifth-container .five:hover{
+  transform-origin: left;
+  transform: rotatey(45deg);
+  opacity:0.8;
+}
+.sixth-container .box:nth-child(1):hover{
+  perspective: 200px;
+}
+.sixth-container .one:hover{
+  transform-origin: right;
+  transform: rotatey(45deg);
+  opacity:0.8;
+}
+.sixth-container .two:hover{
+  transform-origin: top right;
+  transform: scale(2);
+  opacity:0.8;
+  z-index: 1;
+}
+.sixth-container .three:hover{
+  transform-origin: bottom left;
+  transform: scale(2);
+  opacity:0.8;
+  z-index: 1;
+}
+.sixth-container .four:hover{
+  transform-origin: right;
+  transform: scalex(2);
+  opacity: 0.8;
+}
+.sixth-container .five:hover{
+  transform-origin: left;
+  transform: scalex(2);
+  opacity: 0.8;
+}
+.seventh-container .one:hover{
+  transform-origin: top;
+  transform: scaley(2);
+  opacity: 0.8;
+}
+.seventh-container .two:hover{
+  transform-origin: bottom;
+  transform: scaley(2);
+  opacity: 0.8;
+}
+
